@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Projects - Jingyi Sun</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="aboutMe.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="interests.html">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="projects-main"> 
+        <section id="projects" class="projects-section">
+            <article class="project">
+                <h3 class="project-title">Sporting Goods App</h3>
+                <p><strong>Technologies:</strong> JavaScript, Python | React, Redux, Django</p>
+                <ul class="project-features">
+                    <li>Developed a full stack e-commerce platform for product checkout, reviews, and search, enabling admins to manage users and orders.</li>
+                    <li>Designed React user interfaces with Redux for state management, styled with Bootstrap, and incorporated PayPal API.</li>
+                    <li>Applied Django REST framework for data serialization and Django ORM to query data from PostgreSQL database.</li>
+                    <li>Stored images in AWS S3 and hosted the database on AWS RDS, deployed on Heroku with a custom HTTPS domain.</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h3 class="project-title">Auctions App</h3>
+                <p><strong>Technologies:</strong> JavaScript | Node.js, AWS, Microservices</p>
+                <ul class="project-features">
+                    <li>Developed a full stack microservices vehicle auction app with 3 servers in Serverless architecture, featuring a React-based user interface.</li>
+                    <li>Designed asynchronous AWS Lambda functions in JavaScript within the Node.js runtime, monitored by AWS CloudWatch.</li>
+                    <li>Implemented Middy as middleware for schema validation, Auth0 for login and authorization with JWT bearer tokens.</li>
+                    <li>Utilized AWS SQS as a message broker to trigger AWS SES to send emails about bidding results stored in AWS DynamoDB.</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h3 class="project-title">Connect App</h3>
+                <p><strong>Technologies:</strong> Java | Spring Boot, Docker</p>
+                <ul class="project-features">
+                    <li>Developed the backend of a social media app in Java using Spring Boot to manage posting, comments, and categories.</li>
+                    <li>Engineered versioned RESTful API endpoints with error handling, tested in Postman, and documented in SpringDoc.</li>
+                    <li>Leveraged Spring Security and Spring Data JPA for pagination, sorting, and model mapping in a MySQL database.</li>
+                    <li>Containerized the app and database, defining orchestration with Docker Compose, deployed on Elastic Beanstalk.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
