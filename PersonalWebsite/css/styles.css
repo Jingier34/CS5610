@@ -150,27 +150,28 @@ li {
 
 @media (max-width: 768px) {
     nav {
-        justify-content: flex-end; 
-        margin-right: 5%; 
+        justify-content: flex-end;
+        margin-right: 5%;
     }
 
     nav ul {
-        flex-direction: row; 
-        padding: 0; 
-        margin: 0; 
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
     }
 
     nav ul li {
-        margin: 0 10px; 
+        margin: 0 10px;
     }
 
     main {
-        padding: 180px 20px; 
+        padding: 180px 20px;
     }
 
     .projects-main {
-        padding: 80px 20px; 
+        padding: 80px 20px;
     }
 }
+
 
 
