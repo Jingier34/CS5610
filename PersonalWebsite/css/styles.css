@@ -152,12 +152,15 @@ li {
     nav {
         justify-content: flex-end;
         margin-right: 5%;
+        display: flex;
     }
 
     nav ul {
         flex-direction: row;
         padding: 0;
         margin: 0;
+        display: flex;
+        width: auto;
     }
 
     nav ul li {
